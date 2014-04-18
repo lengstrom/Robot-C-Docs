@@ -1,0 +1,146 @@
+{
+   "info": { 
+		"name":"Robot-C",
+		"source":'html/', 
+		"icons": {  
+			"path":'resources/',
+			"mainIcon":'robotc.png',
+			"docsIcons": { 
+				"Modules": '',
+				"Classes": ''
+			}
+		}
+	},
+	pages: {
+		"NXT_Battery_and_Power_Control.html":{
+			"Functions":[
+				"alive":"NXT_Battery_and_Power_Control.html#alive",
+				"powerOff":"NXT_Battery_and_Power_Control.html#powerOff"
+			],
+			"Variables": [
+				"bNoPowerDownOnACAdaptor":"NXT_Battery_and_Power_Control.html#bNoPowerDownOnACAdaptor",
+				"bNxtRechargable":"NXT_Battery_and_Power_Control.html#bNxtRechargable",
+				"LowVoltageBatteryCountLimits":"NXT_Battery_and_Power_Control.html#LowVoltageBatteryCountLimits",
+				"nAvgBatteryLevel":"NXT_Battery_and_Power_Control.html#nAvgBatteryLevel",
+				"nImmediateBatteryLevel":"NXT_Battery_and_Power_Control.html#nImmediateBatteryLevel",
+				"nPowerDownDelayMinutes":"NXT_Battery_and_Power_Control.html#nPowerDownDelayMinutes",
+				"nPowerDownDelayMinutesDefault":"NXT_Battery_and_Power_Control.html#nPowerDownDelayMinutesDefault"
+			]
+		},
+		"NXT_Functions_Bluetooth.html:": {
+			"Variables": [
+				"bBTBusy":"NXT_Functions_Bluetooth.html#bBTBusy",
+				"bBTDebugTrace":"NXT_Functions_Bluetooth.html#bBTDebugTrace",
+				"bBTHasProgressSounds":"NXT_Functions_Bluetooth.html#bBTHasProgressSounds",
+				"bBTRawMode":"NXT_Functions_Bluetooth.html#bBTRawMode",
+				"bBTSkipPswdPrompt":"NXT_Functions_Bluetooth.html#bBTSkipPswdPrompt",
+				"bBTVisble":"NXT_Functions_Bluetooth.html#bBTVisble",
+				"message":"NXT_Functions_Bluetooth.html#message",
+				"nBluetoothCmdStatus":"NXT_Functions_Bluetooth.html#nBluetoothCmdStatus",
+				"nBTCurrentStreamIndex":"NXT_Functions_Bluetooth.html#nBTCurrentStreamIndex",
+				"nLastBTCommand":"NXT_Functions_Bluetooth.html#nLastBTCommand"
+			],
+			"Functions": [
+				"btConnect":"NXT_Functions_Bluetooth.html#btConnect",
+				"btDisconnect":"NXT_Functions_Bluetooth.html#btDisconnect",
+				"btDisconnectAll":"NXT_Functions_Bluetooth.html#btDisconnectAll",
+				"btFactoryReset":"NXT_Functions_Bluetooth.html#btFactoryReset",
+				"btRemoveDevice":"NXT_Functions_Bluetooth.html#btRemoveDevice",
+				"btRequestLinkQuality":"NXT_Functions_Bluetooth.html#btRequestLinkQuality",
+				"btSearch":"NXT_Functions_Bluetooth.html#btSearch",
+				"btStopSearch":"NXT_Functions_Bluetooth.html#btStopSearch",
+				"cCmdBTCheckStatus":"NXT_Functions_Bluetooth.html#cCmdBTCheckStatus",
+				"cCmdBTPurgeRcvBuffer":"NXT_Functions_Bluetooth.html#cCmdBTPurgeRcvBuffer",
+				"cCmdMessageAddToQueue":"NXT_Functions_Bluetooth.html#cCmdMessageAddToQueue",
+				"cCmdMessageGetSize":"NXT_Functions_Bluetooth.html#cCmdMessageGetSize",
+				"cCmdMessageRead":"NXT_Functions_Bluetooth.html#cCmdMessageRead",
+				"cCmdMessageWriteToBluetooth":"NXT_Functions_Bluetooth.html#cCmdMessageWriteToBluetooth",
+				"getDefaultPIN":"NXT_Functions_Bluetooth.html#getDefaultPIN",
+				"getSessionPIN":"NXT_Functions_Bluetooth.html#getSessionPIN",
+				"nxtReadRawBluetooth":"NXT_Functions_Bluetooth.html#nxtReadRawBluetooth",
+				"nxtWriteRawBluetooth":"NXT_Functions_Bluetooth.html#nxtWriteRawBluetooth",
+				"resetSessionPIN":"NXT_Functions_Bluetooth.html#resetSessionPIN",
+				"sendMessage":"NXT_Functions_Bluetooth.html#sendMessage",
+				"sendMessageWithParm":"NXT_Functions_Bluetooth.html#sendMessageWithParm",
+				"setBluetoothOff":"NXT_Functions_Bluetooth.html#setBluetoothOff",
+				"setBluetoothOn":"NXT_Functions_Bluetooth.html#setBluetoothOn",
+				"setBluetoothRawDataMode":"NXT_Functions_Bluetooth.html#setBluetoothRawDataMode",
+				"setBluetoothVisibility":"NXT_Functions_Bluetooth.html#setBluetoothVisibility",
+				"setDefaultPIN":"NXT_Functions_Bluetooth.html#setDefaultPIN",
+				"setFriendlyName":"NXT_Functions_Bluetooth.html#setFriendlyName",
+				"setSessionPIN":"NXT_Functions_Bluetooth.html#setSessionPIN",
+				"transferFile ":"NXT_Functions_Bluetooth.html#transferFile "
+			]
+		},
+		"NXT_Functions_Buttons.html": {
+			"Variables": [
+				"nNxtButtonPressed":"NXT_Functions_Buttons.html#nNxtButtonPressed"
+				"nNxtButtonTask":"NXT_Functions_Buttons.html#nNxtButtonTask",
+				"nNxtExitClicks":"NXT_Functions_Buttons.html#nNxtExitClicks"
+			]
+		},
+		"NXT_Functions_Datalog.html": {
+			"Functions":[
+				"AddToDatalog":"NXT_Functions_Datalog.html#AddToDatalog",
+				"SaveNxtDatalog":"NXT_Functions_Datalog.html#SaveNxtDatalog"
+			],
+			"Variables":[
+				"bHideDataFiles":"NXT_Functions_Datalog.html#bHideDataFiles",
+				"nDatalogSize":"NXT_Functions_Datalog.html#nDatalogSize",
+				"nMaxDataFiles":"NXT_Functions_Datalog.html#nMaxDataFiles",
+				"nMaxDataFileSize":"NXT_Functions_Datalog.html#nMaxDataFileSize",
+				"nUsedDatalogBytes":"NXT_Functions_Datalog.html#nUsedDatalogBytes"
+			]
+		},
+		"NXT_Functions_Display.html": {
+			"Functions": [
+				"eraseDisplay":"NXT_Functions_Display.html#eraseDisplay",
+				"nxtClearPixel":"NXT_Functions_Display.html#nxtClearPixel",
+				"nxtDisplayBigStringAt":"NXT_Functions_Display.html#nxtDisplayBigStringAt",
+				"nxtDisplayBigTextLine":"NXT_Functions_Display.html#nxtDisplayBigTextLine",
+				"nxtDisplayCenteredBigTextLine":"NXT_Functions_Display.html#nxtDisplayCenteredBigTextLine",
+				"nxtDisplayCenteredTextLine":"NXT_Functions_Display.html#nxtDisplayCenteredTextLine",
+				"nxtDisplayClearTextLine":"NXT_Functions_Display.html#nxtDisplayClearTextLine",
+				"nxtDisplayRICFile":"NXT_Functions_Display.html#nxtDisplayRICFile",
+				"nxtDisplayString":"NXT_Functions_Display.html#nxtDisplayString",
+				"nxtDisplayStringAt":"NXT_Functions_Display.html#nxtDisplayStringAt",
+				"nxtDisplayTextLine":"NXT_Functions_Display.html#nxtDisplayTextLine",
+				"nxtDrawCircle":"NXT_Functions_Display.html#nxtDrawCircle",
+				"nxtDrawEllipse":"NXT_Functions_Display.html#nxtDrawEllipse",
+				"nxtDrawLine":"NXT_Functions_Display.html#nxtDrawLine",
+				"nxtDrawRect":"NXT_Functions_Display.html#nxtDrawRect",
+				"nxtEraseEllipse":"NXT_Functions_Display.html#nxtEraseEllipse",
+				"nxtEraseLine":"NXT_Functions_Display.html#nxtEraseLine",
+				"nxtEraseRect":"NXT_Functions_Display.html#nxtEraseRect",
+				"nxtFillEllipse":"NXT_Functions_Display.html#nxtFillEllipse",
+				"nxtFillRect":"NXT_Functions_Display.html#nxtFillRect",
+				"nxtInvertLine":"NXT_Functions_Display.html#nxtInvertLine",
+				"nxtScrollText":"NXT_Functions_Display.html#nxtScrollText",
+				"nxtSetPixel":"NXT_Functions_Display.html#nxtSetPixel"
+			],
+			"Variables": [
+				"bNxtLCDStatusDisplay":"NXT_Functions_Display.html#bNxtLCDStatusDisplay"
+			]
+		},
+		"NXT_Functions_File_Access": {"Functions":["Close":"NXT_Functions_File_Access.html#Close","Delete":"NXT_Functions_File_Access.html#Delete","FindFirstFile":"NXT_Functions_File_Access.html#FindFirstFile","FindNextFile":"NXT_Functions_File_Access.html#FindNextFile","OpenRead":"NXT_Functions_File_Access.html#OpenRead","OpenWrite":"NXT_Functions_File_Access.html#OpenWrite","ReadByte":"NXT_Functions_File_Access.html#ReadByte","ReadFloat":"NXT_Functions_File_Access.html#ReadFloat","ReadLong":"NXT_Functions_File_Access.html#ReadLong","ReadShort":"NXT_Functions_File_Access.html#ReadShort","Rename":"NXT_Functions_File_Access.html#Rename","WriteByte":"NXT_Functions_File_Access.html#WriteByte","WriteFloat":"NXT_Functions_File_Access.html#WriteFloat","WriteLong":"NXT_Functions_File_Access.html#WriteLong","WriteShort":"NXT_Functions_File_Access.html#WriteShort","WriteString":"NXT_Functions_File_Access.html#WriteString","WriteText":"NXT_Functions_File_Access.html#WriteText"],"Variables":["nAvailFlash":"NXT_Functions_File_Access.html#nAvailFlash"]},
+		"NXT_Functions_Joystick_Control": {"Functions":[],"Variables":["joy1_Buttons":"NXT_Functions_Joystick_Control.html#joy1_Buttons","joy1_TopHat":"NXT_Functions_Joystick_Control.html#joy1_TopHat","joy1_x1":"NXT_Functions_Joystick_Control.html#joy1_x1","joy1_y1":"NXT_Functions_Joystick_Control.html#joy1_y1","joy1_x2":"NXT_Functions_Joystick_Control.html#joy1_x2","joy1_y2":"NXT_Functions_Joystick_Control.html#joy1_y2","joy2_Buttons":"NXT_Functions_Joystick_Control.html#joy2_Buttons","joy2_TopHat":"NXT_Functions_Joystick_Control.html#joy2_TopHat","joy2_x1":"NXT_Functions_Joystick_Control.html#joy2_x1","joy2_y1":"NXT_Functions_Joystick_Control.html#joy2_y1","joy2_x2":"NXT_Functions_Joystick_Control.html#joy2_x2","joy2_y2":"NXT_Functions_Joystick_Control.html#joy2_y2"]},
+		"NXT_Functions_Miscellaneous":{"Functions":["memcpy":"NXT_Functions_Miscellaneous.html#memcpy","memset":"NXT_Functions_Miscellaneous.html#memset"],"Variables":["version":"NXT_Functions_Miscellaneous.html#version"]},
+		"NXT_Functions_Motors":"{"Functions":[],"Variables":["bFloatDuringInactiveMotorPWM":"NXT_Functions_Miscellaneous.html#bFloatDuringInactiveMotorPWM","bMotorReflected":"NXT_Functions_Miscellaneous.html#bMotorReflected","motor":"NXT_Functions_Miscellaneous.html#motor","nMaxRegulatedSpeedNXT":"NXT_Functions_Miscellaneous.html#nMaxRegulatedSpeedNXT","nMotorEncoder":"NXT_Functions_Miscellaneous.html#nMotorEncoder","nMotorEncoderTarget":"NXT_Functions_Miscellaneous.html#nMotorEncoderTarget","nMotorPIDSpeedCtrl":"NXT_Functions_Miscellaneous.html#nMotorPIDSpeedCtrl","undefined":"NXT_Functions_Miscellaneous.html#undefined","nPidUpdateInterval":"NXT_Functions_Miscellaneous.html#nPidUpdateInterval","undefined":"NXT_Functions_Miscellaneous.html#undefined","nSyncedTurnRatio":"NXT_Functions_Miscellaneous.html#nSyncedTurnRatio"]},
+		
+
+
+	},
+	docs: { 
+		Modules: [
+			"AddToDatalog":"NXT_Functions_Datalog.html#AddToDatalog",
+			"SaveNxtDatalog":"NXT_Functions_Datalog.html#SaveNxtDatalog"
+		],
+		Classes: [
+			"bHideDataFiles":"NXT_Functions_Datalog.html#bHideDataFiles",
+			"nDatalogSize":"NXT_Functions_Datalog.html#nDatalogSize",
+			"nMaxDataFiles":"NXT_Functions_Datalog.html#nMaxDataFiles",
+			"nMaxDataFileSize":"NXT_Functions_Datalog.html#nMaxDataFileSize",
+			"nUsedDatalogBytes":"NXT_Functions_Datalog.html#nUsedDatalogBytes"
+		]
+	}
+} 
